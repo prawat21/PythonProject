@@ -43,7 +43,7 @@ time.sleep(3)
 #     pyautogui.dragRel(-distance, 0, 1, button="left")
 #     distance = distance - 20
 #     pyautogui.dragRel(0, -distance, 1, button="left")
-#     time.sleep(2)
+#     time.sleep(1)
 
 # Tiktok Liker - Example
 # time.sleep(3)
@@ -59,9 +59,10 @@ time.sleep(3)
 
 
 # Keyboard Functions
-# pyautogui.write("hello")
-# pyautogui.press("enter")
-# pyautogui.press("space")
+pyautogui.write("hello everyone,")
+pyautogui.press("enter")
+pyautogui.press("space")
+pyautogui.write("Good Morning Have a nice Day!!")
 
 # Dino Game - chrome
 # time.sleep(2)
@@ -70,5 +71,5 @@ time.sleep(3)
 #     time.sleep(0.5)
 
 # Screenshot in pyautogui
-pyautogui.screenshot("screenshot.png")
+# pyautogui.screenshot("screenshot.png")
 
